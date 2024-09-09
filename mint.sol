@@ -19,7 +19,7 @@ pragma solidity ^0.8.18;
         balances[_address] += _value;
     }
 
-    //burn function
+    //burn function oooo
      function burn(address _address, uint _value) public {
         if (balances [_address] >= _value) {
             totalSupply -= _value;
